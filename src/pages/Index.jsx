@@ -1,10 +1,15 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
+import EvoshopLogo from '../components/EvoshopLogo';
 
 const Index = () => {
   return (
-    <div className="text-center">
-      <h1 className="text-3xl">Your Blank Canvas</h1>
-      <p>Chat with the agent to start making edits.</p>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+      <h1 className="text-3xl font-bold mb-8">Evoshop Logo</h1>
+      <EvoshopLogo />
+      <p className="mt-8 text-gray-600">
+        This logo incorporates African patterns, the Evoshop name, and a space for a profile picture.
+        The slogan "valorisons la culture africaine" is included to emphasize the brand's mission.
+      </p>
     </div>
   );
 };
